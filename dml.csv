@@ -1,0 +1,2 @@
+transfer,"CREATE TABLE TransferDetails (transfer_id INT PRIMARY KEY,sender_name VARCHAR(255),sender_account_number VARCHAR(20),receiver_name VARCHAR(255),receiver_account_number VARCHAR(20),transfer_amount DECIMAL(10, 2),transfer_date DATE,transfer_description VARCHAR2(500))"
+order,"CREATE TABLE OrderDetails (OrderDetailID NUMBER PRIMARY KEY,OrderID NUMBER,ProductID NUMBER,Quantity NUMBER,UnitPrice NUMBER,CREATE_ID VARCHAR2(255),CREATE_DATE DATE,UPDATE_ID VARCHAR2(255),UPDATE_DATE DATE);"
